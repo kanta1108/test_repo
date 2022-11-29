@@ -1,8 +1,3 @@
 @mixin calc-margin($direction, $value) {
   margin-#{$direction}: $value;
 }
-
-h1 {
-  color: red;
-  @include calc-margin(top, 50px);
-}
